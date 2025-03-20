@@ -1,0 +1,58 @@
+/* spec {0,0,0,1} */
+body {
+    color: black;
+    font-family: Arial;
+}
+
+/* spec {0,0,0,2} */
+footer p{
+    color: lightgray;
+}
+
+/* spec {0,0,0,1},{0,0,0,1},{0,0,0,1} */
+header, main, footer{
+    color: darkblue;
+    font-size: 16px; 
+}
+
+/* spec {0,0,0,1} */
+a{
+    color: green;
+}
+
+/* spec {0,0,1,1} */
+a:hover{
+    color: red;
+}
+
+/* spec {0,0,0,2} */
+ul li{
+    color: brown;
+    margin: 10px;
+}
+
+/* spec {0,0,1,2} */
+ul.menu a{
+    color: yellow;
+    background-color: darkblue;
+}
+
+/* spec {0,0,1,2} */
+ul.submenu a{
+    color: white;
+}
+
+/* spec {0,0,1,1} */
+h1.titolo{
+    color: red;
+}
+
+/* spec {0,0,1,0} */
+.evidenziato{
+    color: yellow;
+}
+
+/* spec {0,0,1,2} */
+ul.lista li{
+    color: violet;
+}

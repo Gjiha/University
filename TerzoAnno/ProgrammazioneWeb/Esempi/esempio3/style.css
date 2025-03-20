@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+/*font importato da google fonts*/
+
+*{/* * vuol dire tutti gli elementi*/
+    border: 1px solid;
+}
+
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkgray;
+    font-size: 30px; /*solitamente si sceglie una grandezza generale e poi viene aggiustata nei figli*/
+}
+
+p{
+    font-family: "DM Serif Text", serif;
+    font-size: 2vw; /*modifica la grandezza del font in base alla finestra
+                    font-size: 0.8em; /*frazione di grandezza di un font base*/
+    color: #336600; /*#360 ===> #336600*/    
+}
+
+p:first-of-type{
+    margin-top: 50px;
+    margin-right: 30;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    /*si può scrivere in un'unica riga : margin: ..... i numeri seguono un ordine orario*/
+
+    background-color: orange;
+
+    width: 300px;
+    height: 600px;
+
+    padding: 40px;
+
+    overflow: hidden;
+
+}
+
