@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80vw;
+    height: 80vh;
+    background-color: bisque;
+    margin: 20px auto;
+    position: relative;
+}
+
+.square{
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+}
+
+.sq1{
+    background-color: steelblue;
+    top: 10%;
+    left: 40%;
+    z-index: 20;
+}
+.sq2{
+    background-color: rebeccapurple;
+    top: 40%;
+    left: 70%;
+    z-index: 10;
+}
