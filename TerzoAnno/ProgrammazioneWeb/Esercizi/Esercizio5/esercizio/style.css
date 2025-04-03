@@ -1,0 +1,37 @@
+.box-esercizio{
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    border: 2px solid blue;
+    margin: 30px auto;
+    box-sizing: border-box;
+
+    background-color: #f0f0f0;
+    color: #333;
+    box-shadow: 10px 10px 4px darkblue;
+
+    background-image: url('https://picsum.photos/300/150');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 30px;
+}
+
+.box-secondo{
+    width: 300px;
+    height: 150px;
+    border: 3px double green;
+    margin: 30px auto;
+
+    background-image: url('https://picsum.photos/300/150');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 30px;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
