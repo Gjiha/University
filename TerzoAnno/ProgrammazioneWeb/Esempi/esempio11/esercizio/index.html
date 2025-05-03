@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <p>
+            <button class="myButton">Cliccami di corsa!!</button>
+        </p>
+        <p class="result"></p>
+    </main>
+</body>
+
+<script>
+    const myButton = document.querySelector(".myButton")
+    const resultP = document.querySelector(".result")
+
+    function buttonExecutor(resolve, reject) {
+        myButton.addEventListener("click", resolve);
+        setTimeout(reject, 5000);
+    }
+
+    const betterClick = new Promise(buttonExecutor);
+    betterClick.then(() => { resultP.innerHTML = "Hai vinto" }).catch(() => { resultP.innerHTML = "Hai perso" })
+</script>
+
+</html>
