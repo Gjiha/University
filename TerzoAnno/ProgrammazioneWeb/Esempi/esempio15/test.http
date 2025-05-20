@@ -1,0 +1,31 @@
+GET http://127.0.0.1:8080/
+
+###
+GET http://www.uniroma2.it
+
+###
+GET http://127.0.0.1:8080/contact
+
+###
+POST http://127.0.0.1:8080/about
+Content-Type: application/x-www-form-urlencoded
+
+user=Francesco&id=27
+
+###
+GET http://127.0.0.1:8080/contact?user=Francesco&id=27
+
+###
+GET http://127.0.0.1:8080/users/21/aula/B3
+
+###
+POST http://127.0.0.1:8080/users/login
+Content-Type: application/json
+
+{"user": "Francesco"}
+
+###
+GET http://127.0.0.1:8080/users/logout
+
+
+

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prodotti</title>
+</head>
+<body>
+    <h1> I prodotti i oggi </h1>
+    <ul>
+        <% listaProdotti.forEach((prodotto, index) => { %>
+            <li><%=prodotto%></li>
+        <% }) %>
+    </ul>
+</body>
+</html>
