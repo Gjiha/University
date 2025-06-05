@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test post JSON</title>
+</head>
+
+<body>
+    <h1>test post JSON</h1>
+    <form id="myForm">
+        <label for="inpName">Name: </label>
+        <input type="text" name="nome" id="inpName"><br>
+        <label>Corso: <input type="text" name="corso" id="inpCorso"></label><br>
+        <input type="submit" value="Invia">
+    </form>
+
+    <div id="message"></div>
+</body>
+
+
+<script>
+    const myForm = document.querySelector("#myForm");
+    const inpName = document.querySelector('#inpName');
+    const inpCorso = document.querySelector('#inpCorso');
+    const message = document.querySelector('#message')
+
+    myForm.addEventListener('submit', async (e) => {
+        e.preventDefault()
+
+        const data = {
+            nome: inpName.value,
+            corso: inpCorso.value,
+        }
+        try {
+            const resp = await fetch("http://127.0.0.1:3000/data", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(data)
+            })
+
+            const respJson = await resp.json()
+            if (respJson.status === "success") {
+                message.innerHTML = respJson.message
+            }
+            console.log(respJson)
+
+        } catch (error) {
+            console.error(error.message)
+        }
+    })
+</script>
+
+</html>

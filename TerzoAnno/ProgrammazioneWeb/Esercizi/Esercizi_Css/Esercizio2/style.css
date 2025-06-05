@@ -1,0 +1,39 @@
+h1 {
+	background-color: lightgreen;
+	color: magenta;
+}
+
+#Es1 div p {
+	background-color: purple;
+}
+#Es1 div p:first-of-type {
+	background-color: aliceblue;
+}
+
+#Es2 a:hover {
+	color: chocolate;
+}
+#Es2 a {
+	color: green;
+}
+
+#Es3 tr:nth-child(odd) {
+	background-color: grey;
+}
+#Es3 tr {
+	background-color: lightgreen;
+}
+#Es4 form input {
+	border-color: aqua;
+}
+#Es4 form input:focus {
+	border-color: blue;
+	border-width: 50px;
+}
+#Es5 h2::first-letter {
+	content: Questo è statto aggiunto;
+	color: green;
+}
+#Es6 ul li:last-child {
+	background-color: yellow;
+}

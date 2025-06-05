@@ -1,0 +1,7 @@
+POST http://127.0.0.1:3000/data
+Content-Type: application/json
+
+{
+    "nome": "Francesco",
+    "corso": "PW"
+}

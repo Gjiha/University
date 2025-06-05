@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
             /*border: 1px solid black;*/
             box-sizing: border-box;
         }
 
-        html, body{
+        html,
+        body {
             width: 100%;
             height: 100%;
             font-size: 30px;
         }
 
-        section{
+        section {
             width: 100%;
             height: 100%;
             background-position: top center;
-            background-size: cover; /*serve per adattare l'immagine alla finestra*/
+            background-size: cover;
+            /*serve per adattare l'immagine alla finestra*/
             background-repeat: no-repeat;
             display: flex;
             background-attachment: fixed;
         }
-        
-        section p{
+
+        section p {
             background-color: white;
             opacity: 0.7;
             text-align: center;
@@ -37,34 +40,43 @@
             padding: 30px;
         }
 
-        #sec1{
+        #sec1 {
             background-color: red;
             background-image: url("bg-cani.jpg");
         }
-        #sec2{
+
+        #sec2 {
             background-color: yellow;
             background-image: url("bg-gatti.jpg");
             width: 100%;
             height: 100%;
         }
-        #sec3{
+
+        #sec3 {
             background-color: blue;
             background-image: url("bg-cangat.jpg");
         }
 
-        a{
+        a {
             color: aqua;
         }
 
-        a:visited{
+        a:visited {
             color: red;
         }
-
     </style>
 </head>
+
 <body>
-    <section id="sec1"><p><a href="">Cani</a></p></section>
-    <section id="sec2"><p>Gatti</p></section>
-    <section id="sec3"><p>Cani e gatti</p></section>
+    <section id="sec1">
+        <p><a href="">Cani</a></p>
+    </section>
+    <section id="sec2">
+        <p>Gatti</p>
+    </section>
+    <section id="sec3">
+        <p>Cani e gatti</p>
+    </section>
 </body>
+
 </html>

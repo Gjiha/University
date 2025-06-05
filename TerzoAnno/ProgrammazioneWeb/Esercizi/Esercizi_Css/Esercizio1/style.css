@@ -1,0 +1,28 @@
+h1 {
+	background-color: grey;
+	color: yellow;
+}
+
+#Esercizio1 .contenitore {
+	color: blue;
+}
+
+#Esercizio2 .contenitore {
+	color: green;
+}
+
+#Esercizio2 .contenitore .noverde {
+	color: black;
+}
+
+#Esercizio3 .contenitore {
+	border: 2px solid green;
+}
+
+#Esercizio4 .contenitore {
+	border: 10px solid brown;
+}
+
+#Esercizio4 .contenitore p {
+	border: inherit;
+}

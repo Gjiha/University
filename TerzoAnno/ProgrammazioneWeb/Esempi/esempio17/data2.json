@@ -1,0 +1,12 @@
+{
+    "nome": "Pierpaolo",
+    "cognome": "Loreti",
+    "età":51,
+    "corsi":["Pw","PJDM","SD"],
+    "media":27.4,
+    "data":{
+        "dd":22,
+        "mm":5,
+        "aa":25
+    }
+}

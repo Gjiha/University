@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Exile&display=swap");
+
+* {
+	background-color: lightblue;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+	color: #f234ab;
+	font-size: 50px;
+	text-shadow: 30px;
+}
+
+header a {
+	color: orangered;
+}
+header a:hover {
+	color: blueviolet;
+}
+
+h2 {
+	color: darkolivegreen;
+	font-size: 40px;
+}
+
+#Font p.first {
+	font-family: Exile, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+#Font p.second {
+	font-weight: bold;
+	font-style: italic;
+}
+
+#Color div p {
+	color: violet;
+	background-color: aquamarine;
+	text-align: center;
+}
+
+#Text pre.first {
+	text-align: center;
+	background-color: yellow;
+	line-height: 30px;
+	word-spacing: 10px;
+	letter-spacing: 5px;
+}
+#Text pre {
+	text-align: 2em;
+}
+
+.upper {
+	text-transform: uppercase;
+	background-color: beige;
+	padding: 10px 5px 10px 5px;
+}

@@ -1,0 +1,81 @@
+* {
+	font-family: "Courier New", Courier, monospace;
+}
+
+body {
+	background-repeat: no-repeat;
+	background-image: url(https://picsum.photos/1000/1000);
+	background-color: lightgreen;
+	background-size: auto;
+	background-position: center;
+	background-attachment: fixed;
+}
+header {
+	margin: auto;
+}
+nav ul {
+	list-style-position: outside;
+	list-style-type: armenian;
+}
+nav ul li a:link {
+	color: green;
+}
+nav ul li a:hover {
+	color: violet;
+}
+nav ul li a:focus {
+	background-color: antiquewhite;
+}
+
+h1 {
+	color: blueviolet;
+	text-align: center;
+}
+
+div.box1 {
+	width: 300px;
+	height: 150px;
+	background-color: aqua;
+	margin-bottom: 30px;
+}
+
+div.box1 p {
+	opacity: 0.75;
+	padding: 20px 20px 20px 30px;
+	background-color: pink;
+	margin-top: auto;
+}
+
+div.box2 {
+	width: 300px;
+	height: 150px;
+	background-color: brown;
+	margin-bottom: 30px;
+}
+div.box3 {
+	width: 300px;
+	height: 150px;
+	background-color: yellow;
+	border-style: dashed;
+	border-width: 8px 5px 5px 8px;
+	border-color: red brown brown red;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+div.box4 {
+	background-color: violet;
+	width: 300px;
+	height: 100px;
+	overflow: auto;
+	margin-bottom: 30px;
+}
+.box4 p {
+	background-color: violet;
+}
+.box5 {
+	background-image: url(https://picsum.photos/300/150);
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 300px;
+	margin: auto;
+}

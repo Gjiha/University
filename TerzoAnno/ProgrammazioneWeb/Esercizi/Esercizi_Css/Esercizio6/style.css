@@ -1,0 +1,45 @@
+* {
+	font-size: 30px;
+	text-align: center;
+	border: 0;
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header {
+	background-color: red;
+	width: 100%;
+	height: 100px;
+}
+
+nav {
+	background-color: green;
+	width: 100%;
+	height: 70px;
+}
+main {
+	background-color: yellow;
+	width: 60%;
+	height: 600px;
+}
+aside {
+	background-color: aqua;
+	width: 40%;
+	height: 600px;
+}
+footer {
+	background-color: orange;
+	width: 100%;
+	height: 150px;
+}
+
+@media (max-width: 1366px) {
+	header {
+		background-color: aqua;
+	}
+    main
+}

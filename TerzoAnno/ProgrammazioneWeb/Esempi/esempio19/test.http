@@ -1,0 +1,21 @@
+GET http://127.0.0.1:3000/api/v1/products/
+
+###
+
+GET http://127.0.0.1:3000/api/v1/products/1
+
+###
+POST http://127.0.0.1:3000/api/v1/products/
+Content-Type: application/json
+
+  {
+    "nome":"VERMENTINO DI GALLURA SUPERIORE AMABILE DOCG 2020 (BOTTLE 75 CL)",
+    "cantina": "Tor vergata",
+    "luogo": "Badesi",
+    "prezzo": 30.79,
+    "prezzoScontato": 19.09,
+    "voto": 4.7,
+    "review": 2
+  }
+
+

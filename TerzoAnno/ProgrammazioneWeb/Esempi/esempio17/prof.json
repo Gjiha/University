@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "docente":"Loreti",
+        "corso":"PW",
+        "crediti":6
+    },
+    {
+        "id":2,
+        "docente":"Basili",
+        "corso":"AI",
+        "crediti":6
+    },
+    {
+        "id":3,
+        "docente":"Luglio",
+        "corso":"FT",
+        "crediti":6
+    },
+    {
+        "id":4,
+        "docente":"Croce",
+        "corso":"SO",
+        "crediti":12
+    }
+]
