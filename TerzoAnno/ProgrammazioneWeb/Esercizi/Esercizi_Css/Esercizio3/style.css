@@ -8,7 +8,7 @@
 h1 {
 	color: #f234ab;
 	font-size: 50px;
-	text-shadow: 30px;
+	text-shadow: -0.9px -0.9px 10px black;
 }
 
 header a {

@@ -1,0 +1,47 @@
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(12, 1fr);
+
+	row-gap: 10px;
+	column-gap: 10px;
+
+	width: 100%;
+	height: auto;
+}
+
+body {
+	background-color: aqua;
+
+	margin: 10px;
+	padding: 0;
+}
+
+header {
+	background-color: red;
+	grid-column: 1/ -1;
+}
+
+nav {
+	background-color: green;
+	grid-row: 2/2;
+	grid-column: 6/13;
+}
+
+aside {
+	background-color: yellow;
+	grid-column: 2/3;
+	grid-row: 4/10;
+}
+
+main {
+	background-color: orange;
+	grid-column: 4/10;
+	grid-row: 3/12;
+}
+
+footer {
+	background-color: violet;
+	grid-column: 3/6;
+	grid-row: -2/-1;
+}
