@@ -1,0 +1,36 @@
+body {
+	margin: 20px auto 20px auto;
+	width: 400px;
+}
+
+main {
+	height: 80vh;
+	position: relative;
+}
+
+header,
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 0 10px 0;
+	background-color: #f1f1f1;
+}
+
+header,
+main,
+footer {
+	border: 1px solid black;
+}
+
+@media (min-width: 600px) {
+	body {
+		width: 500px;
+	}
+}
+
+@media (min-width: 1000px) {
+	body {
+		width: 800px;
+	}
+}
