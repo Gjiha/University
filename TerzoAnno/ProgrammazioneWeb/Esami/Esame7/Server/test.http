@@ -1,0 +1,10 @@
+GET http://127.0.0.1:3000/api/v1/list
+
+###
+GET http://127.0.0.1:3000/api/v1/pics/1
+
+###
+GET http://127.0.0.1:3000/api/v1/pics/12
+
+###
+GET http://127.0.0.1:3000/api/v1/pi
