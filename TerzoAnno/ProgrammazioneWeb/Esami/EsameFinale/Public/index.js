@@ -39,16 +39,17 @@ function fillMain(data) {
 
 async function main() {
 	let allData = await getData("http://127.0.0.1:3000/api/v1/items");
-	let completedData = await getData(
-		"http://127.0.0.1:3000/api/v1/items-complete"
-	);
 	fillMain(allData);
 	let completati = document.getElementById("soloCompletati");
-	completati.addEventListener("click", () => {
+	completati.addEventListener("click", async () => {
+		let completedData = await getData(
+			"http://127.0.0.1:3000/api/v1/items-complete"
+		);
 		fillMain(completedData);
 	});
 	let mostraTutti = document.getElementById("mostraTutti");
-	mostraTutti.addEventListener("click", () => {
+	mostraTutti.addEventListener("click", async () => {
+		let allData = await getData("http://127.0.0.1:3000/api/v1/items");
 		fillMain(allData);
 	});
 	let body = document.querySelector("body");
