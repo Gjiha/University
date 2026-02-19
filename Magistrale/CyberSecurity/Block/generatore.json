@@ -1,0 +1,19 @@
+{
+  "log-file-name": "output.log",
+  "num-of-orgs": 2,
+  "num-of-orderers": 1,
+  "num-of-peers-per-org": 1,
+  "num-of-users-per-peer": 1,
+  "base-domain": "kvdevel.com",
+  "network-name": "kvdevel",
+  "base-port": 7050,
+  "prefix": "./",
+  "fabver": "2.4.9",
+  "systemchannel": "systemchannel",
+  "channelid": "kvdevel",
+  "chaincode": "fabcar",
+  "chaincode-folder": "./chaincode",
+  "chaincode-version": "1.0",
+
+  "END": "END"
+}
