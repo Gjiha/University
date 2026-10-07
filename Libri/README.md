@@ -4,3 +4,4 @@ All'interno di questo file sono presenti i nomi dei libri non uploadabili tramit
 - Design and Analysis of Distributed Algorithm
 - distributedGraphColoring
 - Probability and Computing Randomization and Probabilistic Techniques in Algorithms and Data Analysis 
+- Pattern Recognition and MachineLearning
